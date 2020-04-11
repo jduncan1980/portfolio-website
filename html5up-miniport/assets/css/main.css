@@ -2032,10 +2032,6 @@ ul.actions li:first-child {
 	padding: 2em;
 }
 
-/* .box a {
-	color: white;
-} */
-
 .box.style1 {
 	padding: 3em 2em 3.5em 2em;
 }
@@ -2300,8 +2296,9 @@ body > article {
 	color: #777;
 }
 
-.dog-card-heading {
-	font-size: 1.55rem;
+/* My additions */
+.margin-top-small {
+	margin-top: 0.1rem;
 }
 
 #work a {
