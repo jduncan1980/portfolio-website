@@ -2026,9 +2026,9 @@ ul.actions li:first-child {
 
 .box {
 	background: #fff;
-	/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
-		0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-	text-align: center; */
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2),
+		0px 2px 3px 1px rgba(0, 0, 0, 0.2);
+	text-align: center;
 	padding: 2em;
 }
 
@@ -2297,8 +2297,12 @@ body > article {
 }
 
 /* My additions */
-.margin-top-small {
-	margin-top: 0.1rem;
+progress[value] {
+	width: 40%;
+	height: 25%;
+}
+.small-text {
+	font-size: 0.8rem;
 }
 
 #work a {
