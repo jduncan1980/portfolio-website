@@ -1,0 +1,26 @@
+{
+	"name": "portfolio-website",
+	"version": "1.0.0",
+	"description": "Site is hosted on my own server, not github pages... https://portfolio.jasonduncan.org",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"glitch": "postcss ./assets/css/main.css --use postcss-glitch -r"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jduncan1980/portfolio-website.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jduncan1980/portfolio-website/issues"
+	},
+	"homepage": "https://github.com/jduncan1980/portfolio-website#readme",
+	"devDependencies": {
+		"postcss": "^7.0.27",
+		"postcss-cli": "^7.1.0",
+		"postcss-glitch": "^3.2.8"
+	}
+}
